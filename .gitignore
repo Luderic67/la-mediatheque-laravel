@@ -1,23 +1,27 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+*
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+!app
+!bootstrap
+!config
+!database
+!public
+!resources
+!routes
+!storage
+!tests
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+!artisan
+!composer.json
+!composer.lock
+!LICENSE
+!package.json
+!phpunit.xml
+!README.md
+!CHANGELOG.md
+!vite.config.js
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+!.editorconfig
+!.env.example
+!.gitattributes
+!.gitignore
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
